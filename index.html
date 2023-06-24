@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="1; URL=https://maskodev.me" />
+    <meta http-equiv="refresh" content="5; URL=https://maskodev.me" />
   </head>
   <body>
-    You will be redirected to <a href="https://maskodev.me">maskodev.me</a> in 1 second.
+    You will be redirected to <a href="https://maskodev.me">maskodev.me</a> in <span id="seconds">5</span> seconds.
   </body>
+  <script>const e=document.getElementById('seconds');setInterval(()=>{e.innerHTML=Number(e.innerHTML)-1},1000)</script>
 </html>
